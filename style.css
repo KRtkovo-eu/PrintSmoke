@@ -1,6 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Noticia+Text:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic);
 
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+@media all and (max-width: 1024px) and (orientation: portrait) {
+ #wrapper {
+    width: 100%;
+    padding: 0 5px 0 5px;
+ }
+}
+
 ::-moz-selection {
   background:                 #669933;
   color:                      #ffffff;
