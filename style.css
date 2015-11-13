@@ -13,8 +13,10 @@
   }
 
   html {
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
+
+
 }
 
 ::-moz-selection {
@@ -68,7 +70,7 @@ h2 {
 }
 
 #topLinks, #footer {
-  font-size: 7pt;
+  font-size: 0.55em;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: #666666;
@@ -112,5 +114,5 @@ h2 {
 }
 
 .smaller {
-  font-size: small;
+  font-size: 0.75em;
 }
