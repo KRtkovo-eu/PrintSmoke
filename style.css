@@ -85,6 +85,7 @@ h2 {
 .print {
   font-family: 'Noticia Text', serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .smoke {
