@@ -156,6 +156,11 @@ img {
   color: #666666;
 }
 
+#footer #arrow {
+  position: relative;
+  margin-top: -2px;
+}
+
 #slogan, #mobileMenuBar {
   text-align: center;
   padding-bottom: 50px;
