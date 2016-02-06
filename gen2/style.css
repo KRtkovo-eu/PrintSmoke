@@ -1,0 +1,300 @@
+/* Imports */
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text:400,700);
+
+/* Browser style */
+::-moz-selection {
+  background: #ffffff;
+  color: #004d00;
+}
+::selection {
+  background: #ffffff;
+  color: #004d00;
+}
+
+/* Global styles */
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: #cccccc;
+}
+
+a:link, a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+  -webkit-transition:     all 0.5s linear;
+  -moz-transition:        all 0.5s linear;
+  -o-transition:          all 0.5s linear;
+  transition:             all 0.5s linear;
+}
+
+a:hover {
+  color: #4dc4ff;
+  text-decoration: underline;
+  -webkit-transition:     all 0.5s linear;
+  -moz-transition:        all 0.5s linear;
+  -o-transition:          all 0.5s linear;
+  transition:             all 0.5s linear;
+}
+
+a.highlight:link, a.highlight:visited {
+  color: #ffcc00;
+}
+
+a.highlight:hover {
+  color: #4dc4ff;
+}
+
+/* Unique styles */
+#navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 10px 0 10px 0;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  font-weight: 700;
+
+  z-index: 1000;
+
+  -moz-box-shadow: 0 0 10px #000000;
+  -khtml-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  -o-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+
+  background: rgba(0,0,0,0.35);
+}
+
+#navigation div.innerBlock {
+  width: 60%;
+  min-width: 800px;
+
+  margin: auto;
+
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity:1;
+  -webkit-opacity:1;
+  -o-opacity:1;
+  opacity:1;
+}
+
+#navigation svg.smallLogo {
+  height: 20px;
+  color: #ffffff;
+}
+
+#navigation svg.smallLogo path {
+  height: 20px;
+  width: 174px;
+}
+
+#navigation svg path {
+  width: 174px;
+  height: 20px;
+}
+
+#navigation #logoSmall {
+  width: 174px;
+  height: 20px;
+  background-image: url('img/printsmokelogosmall.png');
+  -webkit-transition: background-image 0.5s linear;
+  -moz-transition: background-image 0.5s linear;
+  -o-transition: background-image 0.5s linear;
+  transition: background-image 0.5s linear;
+}
+
+#navigation #logoSmall:hover{
+  background-image: url('img/printsmokelogosmall_hover.png');
+  -webkit-transition: background-image 0.5s linear;
+  -moz-transition: background-image 0.5s linear;
+  -o-transition: background-image 0.5s linear;
+  transition: background-image 0.5s linear;
+}
+
+#navigation div.fltRight a {
+  text-decoration: none;
+  margin: 0 15px 0 15px;
+  text-transform: uppercase;
+}
+
+#navigation img {
+  vertical-align: middle;
+}
+
+#intro {
+  background: #ffffff url('img/8390699378_18a8e36270_o.jpg');
+  background-attachment:fixed;
+  background-size: 100% auto;
+  background-position:center center;
+
+  height: 100%;
+  min-height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  position: relative;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+#intro div.splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+
+  background: #004d00;
+
+  filter:alpha(opacity=60);
+  -moz-opacity:0.6;
+  -khtml-opacity:0.6;
+  -webkit-opacity:0.6;
+  -o-opacity:0.6;
+  opacity:0.6;
+}
+
+#intro div.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  margin: 0;
+  padding: 130px 0 60px 0;
+
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+#intro h1 {
+  font-family: 'Courgette', cursive;
+  padding: 0;
+  margin: 60px 0 0 0;
+}
+
+#about, #store, #blog, #contact {
+  height: 100%;
+  min-height: 100%;
+}
+
+#contact {
+  background: #08304B;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  -moz-box-shadow: 0 0 10px #000000;
+  -khtml-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  -o-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+#contact div.innerBlock {
+  padding: 40px 0 0 0;
+}
+
+#contact #map {
+  width: 100%;
+  height: 400px;
+
+  -moz-box-shadow: 0 0 10px #000000;
+  -khtml-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  -o-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+#contact #links {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#contact #links a {
+  filter:alpha(opacity=70);
+  -moz-opacity:0.7;
+  -khtml-opacity:0.7;
+  -webkit-opacity:0.7;
+  -o-opacity:0.7;
+  opacity:0.7;
+  margin: 0 25px 0 25px;
+}
+
+#contact #links a:hover {
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity:1;
+  -webkit-opacity:1;
+  -o-opacity:1;
+  opacity:1;
+}
+
+#footer {
+  font-size: 0.6em;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #666666;
+}
+
+#footer a:link, #footer a:visited {
+  color: #004d00;
+}
+
+#footer a:hover {
+  color: #08304B;
+}
+
+/* Classes */
+.print {
+  font-family: 'Noticia Text', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.smoke {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 0.96em;
+}
+
+.fltRight {
+  float: right;
+  text-align: right;
+}
+
+.fltLeft {
+  float: left;
+}
+
+.clear {
+	clear:both;
+}
+
+.textRight {
+  text-align: right;
+}
