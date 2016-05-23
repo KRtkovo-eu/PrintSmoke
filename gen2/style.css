@@ -1,7 +1,7 @@
 /* Imports */
 @import url(https://fonts.googleapis.com/css?family=Courgette);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Noticia+Text:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text:700);
 
 /* Browser style */
 ::-moz-selection {
@@ -101,16 +101,16 @@ a.highlight:hover {
 
 #navigation svg.smallLogo path {
   height: 20px;
-  width: 174px;
+  width: 165px;
 }
 
 #navigation svg path {
-  width: 174px;
+  width: 165px;
   height: 20px;
 }
 
 #navigation #logoSmall {
-  width: 174px;
+  width: 165px;
   height: 20px;
   background-image: url('img/printsmokelogosmall.png');
   -webkit-transition: background-image 0.5s linear;
@@ -227,6 +227,12 @@ a.highlight:hover {
   box-shadow: 0 0 10px #000000;
 }
 
+#contact p {
+  width: 800px;
+  margin: auto;
+  padding: 25px 0 0 0;
+}
+
 #contact #links {
   width: 100%;
   text-align: center;
@@ -269,17 +275,9 @@ a.highlight:hover {
 }
 
 /* Classes */
-.print {
+.printsmoke {
   font-family: 'Noticia Text', serif;
   font-weight: 700;
-  text-transform: uppercase;
-}
-
-.smoke {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 0.96em;
 }
 
 .fltRight {
@@ -297,4 +295,8 @@ a.highlight:hover {
 
 .textRight {
   text-align: right;
+}
+
+.bold {
+  font-weight: 700;
 }

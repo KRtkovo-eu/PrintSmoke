@@ -66,22 +66,32 @@
           var map = new google.maps.Map(mapElement, mapOptions);
 
           // Let's also add a marker while we're at it
-          new google.maps.Marker({
-              position: new google.maps.LatLng(49.203170, 16.608515),
-              map: map,
-              title: 'PrintSmoke base'
-          });
+
+          //new google.maps.Marker({
+          //    position: new google.maps.LatLng(49.203170, 16.608515),
+          //    map: map,
+          //    title: 'PrintSmoke base',
+          //  icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'
+          //});
+
+          //new google.maps.Marker({
+          //  position: new google.maps.LatLng(49.1793661,16.5543778),
+          //  map: map,
+          //  title: 'PrintSmoke base',
+          //  icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'
+          //});
 
           new google.maps.Marker({
-            position: new google.maps.LatLng(49.1793661,16.5543778),
+            position: new google.maps.LatLng(49.1980699,16.5951984),
             map: map,
-            title: 'PrintSmoke base'
+            title: 'Pirate Space Brno',
+            icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
           });
       }
   </script>
 </head>
 
-<body onload="javascript:getQuote();">
+<body onload="javascript:getQuote(); externalLinks();">
   <div id="navigation">
     <div class="innerBlock">
       <div class="fltLeft">
@@ -89,10 +99,15 @@
       </div>
 
       <div class="fltRight">
-        <a href="#about">About</a>
         <a href="#store" class="highlight">Buy now!</a>
+        <!--<a href="club/">Club</a>-->
+        <a href="#about">About</a>
         <a href="#blog">Blog</a>
         <a href="#contact">Contact</a>
+        <select name="language">
+          <option value="enUS" selected="selected">English (US)</option>
+          <option value="csCZ" disabled="disabled">Čeština</option>
+        </select>
       </div>
 
       <div class="clear"></div>
@@ -123,19 +138,17 @@
   <div id="contact">
     <div class="innerBlock">
       <div id="map"></div>
-      <p id="links">
-        <a href="https://www.facebook.com/printsmoke/" rel="external"><img src="img/fb.png" alt="Facebook" title="Visit our Facebook page" /></a>
-        <a href="https://github.com/KRtkovo-eu/PrintSmoke" rel="external"><img src="img/github.png" alt="GitHub" title="Visit our GitHub repository" /></a>
-        <a href="http://krtkovo.eu/" rel="external"><img src="img/krtkovo.png" alt="KRtkovo.eu" title="Visit KRtkovo.eu - author of PrintSmoke" /></a>
-        <a href="https://blockchain.info/address/1PrhVh1te66SnGHm2Fy5aoXNVjS4jiCDBP" rel="external"><img src="img/bitcoin.png" alt="Bitcoin" title="Donate Us some Bitcoins on 1PrhVh1te66SnGHm2Fy5aoXNVjS4jiCDBP" /></a>
-      </p>
+      <p><span class="bold">PrintSmoke headquarters</span><br />
+      <a href="http://pirati.cz/mista/centra/brno" rel="external">Pirate Space Brno</a><br />
+      Údolní 599/37<br />
+      Brno, 602 00<br />
+      Czech Republic</p>
     </div>
   </div>
 
   <div id="footer">
-    <p>* - project is still in developmnet</p>
-    <p><span class="print">Print</span><span class="smoke">Smoke</span> project is published under <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="external">Creative Commons Attribution-ShareAlike 4.0 International</a> License.<br />
-Original design created by <a href="http://krtkovo.eu" rel="external">KRtko<span id="arrow">&gt;</span>o.eu</a>.</p>
+    <p><span class="printsmoke">PrintSmoke</span> project is published under the <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="external">Creative Commons Attribution-ShareAlike 4.0 International</a> License.<br />
+    ©2016 <a href="http://krtkovo.eu" rel="external">KRtko<span id="arrow">&gt;</span>o.eu, Ondřej Kotas</a>.</p>
   </div>
 </body>
 </html>
