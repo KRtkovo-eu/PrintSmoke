@@ -1,5 +1,7 @@
 # PrintSmoke
-PrintSmoke is printable 3D object, which allows you to use smoking glass pipes with charcoal filters to smoke cleaner.
+PrintSmoke is a 3D printed filtration adapter.
+It contains a set of three carbon filters (Ø 9 mm) ensuring a cleaner and cooler smoke and a fits steel screen (Ø 20 mm) which protects them from getting blocked by fragments of the burning material.
+The adapter can be used with glass pipes or cigarettes.
 
 - status: release candidate (testing)
 - design version: MARK 6
